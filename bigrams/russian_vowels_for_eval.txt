@@ -1,0 +1,53 @@
+    
+    my $vowel;
+    my $ran_num = int(rand(5607));
+
+    if ($ran_num < 261) {$vowel = 'у';}
+    elsif ($ran_num < 1544) {$vowel = 'о';}
+    elsif ($ran_num < 2364) {$vowel = 'а';}
+    elsif ($ran_num < 3304) {$vowel = 'и';}
+    elsif ($ran_num < 3625) {$vowel = 'я';}
+    elsif ($ran_num < 4549) {$vowel = 'е';}
+    elsif ($ran_num < 4551) {$vowel = 'э';}
+    elsif ($ran_num < 4856) {$vowel = 'ы';}
+    elsif ($ran_num < 4956) {$vowel = 'ю';}
+    elsif ($ran_num < 5038) {$vowel = 'ое';}
+    elsif ($ran_num < 5040) {$vowel = 'ыя';}
+    elsif ($ran_num < 5041) {$vowel = 'еу';}
+    elsif ($ran_num < 5079) {$vowel = 'ые';}
+    elsif ($ran_num < 5081) {$vowel = 'аи';}
+    elsif ($ran_num < 5120) {$vowel = 'ои';}
+    elsif ($ran_num < 5209) {$vowel = 'ие';}
+    elsif ($ran_num < 5210) {$vowel = 'уа';}
+    elsif ($ran_num < 5220) {$vowel = 'ео';}
+    elsif ($ran_num < 5221) {$vowel = 'ею';}
+    elsif ($ran_num < 5223) {$vowel = 'яю';}
+    elsif ($ran_num < 5236) {$vowel = 'ию';}
+    elsif ($ran_num < 5243) {$vowel = 'оэ';}
+    elsif ($ran_num < 5280) {$vowel = 'ия';}
+    elsif ($ran_num < 5283) {$vowel = 'еи';}
+    elsif ($ran_num < 5291) {$vowel = 'иа';}
+    elsif ($ran_num < 5293) {$vowel = 'ао';}
+    elsif ($ran_num < 5321) {$vowel = 'оя';}
+    elsif ($ran_num < 5336) {$vowel = 'яе';}
+    elsif ($ran_num < 5344) {$vowel = 'ио';}
+    elsif ($ran_num < 5388) {$vowel = 'ае';}
+    elsif ($ran_num < 5393) {$vowel = 'иу';}
+    elsif ($ran_num < 5427) {$vowel = 'ее';}
+    elsif ($ran_num < 5429) {$vowel = 'яя';}
+    elsif ($ran_num < 5434) {$vowel = 'ея';}
+    elsif ($ran_num < 5435) {$vowel = 'уя';}
+    elsif ($ran_num < 5450) {$vowel = 'аю';}
+    elsif ($ran_num < 5457) {$vowel = 'уе';}
+    elsif ($ran_num < 5511) {$vowel = 'ая';}
+    elsif ($ran_num < 5537) {$vowel = 'ии';}
+    elsif ($ran_num < 5538) {$vowel = 'иэ';}
+    elsif ($ran_num < 5544) {$vowel = 'ою';}
+    elsif ($ran_num < 5547) {$vowel = 'ау';}
+    elsif ($ran_num < 5549) {$vowel = 'уо';}
+    elsif ($ran_num < 5596) {$vowel = 'ую';}
+    elsif ($ran_num < 5602) {$vowel = 'оо';}
+    elsif ($ran_num < 5605) {$vowel = 'еа';}
+    elsif ($ran_num < 5607) {$vowel = 'оу';}
+
+    return $vowel;
